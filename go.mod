@@ -1,6 +1,6 @@
-module gitlab.pharmalink.id/pi/ethical/rabbitmq-package-go
+module github.com/jrarkaan/rabbitmq-package-go
 
-go 1.18
+go 1.20
 
 require github.com/streadway/amqp v1.1.0
 
