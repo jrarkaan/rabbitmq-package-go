@@ -1,4 +1,4 @@
-package v2
+package v1_5
 
 import "github.com/streadway/amqp"
 
