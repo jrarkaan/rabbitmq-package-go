@@ -162,7 +162,6 @@ func (r *RabbitMQ) StartConsumer(
 	if err != nil {
 		return errors.Wrap(err, "CreateChannel"), nil
 	}
-	defer ch.Close()
 
 	deliveries, errConsume := ch.Consume(
 		queueName,
